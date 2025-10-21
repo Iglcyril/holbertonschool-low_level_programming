@@ -11,9 +11,9 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	LastDigit = n % 10; // note obsidian : le %10 permet de demander le dernier chiffre de n (le reste)
+	LastDigit = n % 10;
 
-	printf ("Last digit of %d is %d ",n, LastDigit); // note obsidian : le premier %d est pour n et le second %d pour lastdigit)
+	printf ("Last digit of %d is %d ",n, LastDigit);
 	if (LastDigit > 5)
 		printf("and is greater than 5\n");
 	else if (LastDigit == 0)
