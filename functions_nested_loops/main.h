@@ -1,8 +1,6 @@
-#ifndef MAIN_h
-#define MAIN_h
-int _putchar(char c);
-#endif
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
-*char c voir git de l'exo
-*/
+int _putchar(char c);
+void print_alphabet(void);
+#endif
