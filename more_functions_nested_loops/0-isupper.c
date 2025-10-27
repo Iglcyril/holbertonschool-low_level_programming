@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isupper - Entry point
+ * @c: int char
  * Return: Always 0.
  */
 
