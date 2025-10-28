@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "main.h"
+#include <"main.h">
+#include <string.h>
 /**
-* _strlen - swaps the values of 2 integers
+* _strlen - entry point
 * @s : pointer
 * Return (0)
 */
