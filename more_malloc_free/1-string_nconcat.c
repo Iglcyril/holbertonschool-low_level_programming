@@ -8,7 +8,7 @@
  * @s2: second string
  * @n: max number of s2
  * Return: pointer to allocated space
- *  	   Returns NULL if fail
+ * Returns NULL if fail
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
