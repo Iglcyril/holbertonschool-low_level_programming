@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * print_dog - Print a structure 
+ * print_dog - Print a structure
  * @d: Pointer to the structure to print
  * Description: Prints name, age, prints
  */
