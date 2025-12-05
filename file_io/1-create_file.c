@@ -8,8 +8,9 @@
 int create_file(const char *filename, char *text_content)
 {
 
-	int fic, write_resu, close_resu;
-	size_t len = 0;
+	int fic;
+	ssize_t write_resu;
+	int len = 0;
 
 	if (filename == NULL)
 		return (-1);
@@ -32,8 +33,7 @@ int create_file(const char *filename, char *text_content)
 		close(fic);
 		return (-1);
 	}
-	close_resu = close(fic);
-	if (close_resu == -1)
+	if (close(fic) == -1)
 		return (-1);
 
 	return (1);
